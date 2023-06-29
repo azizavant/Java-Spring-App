@@ -11,4 +11,9 @@
 		  class="javaspring.tutorial.firstapp.TraditionalMusic">
 	</bean>
 
+	<bean id="musicPlayer"
+		  class="javaspring.tutorial.firstapp.MusicPlayer">
+		<constructor-arg ref="musicBean"/>
+	</bean>
+
 </beans>
